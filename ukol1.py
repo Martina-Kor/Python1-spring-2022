@@ -16,9 +16,13 @@ code_of_parcel =input("Zadejte prosím číslo kód svého balíku: ")
 
 code_of_parcel = code_of_parcel.upper()
 # print(code_of_parcel)
+# print(baliky[code_of_parcel])
 
+  
 if code_of_parcel in baliky:
-      print(f"Balík {code_of_parcel} byl předán kurýrovi. ")
+    if baliky[code_of_parcel]:
+           print(f"Balík {code_of_parcel} byl předán kurýrovi. ")
+    else:
+        print(f"Balík {code_of_parcel} zatím nebyl předán kurýrovi.")
 else:
-      print(f"Balík {code_of_parcel} zatím nebyl předán kurýrovi.")
-
+    print(f"Balík {code_of_parcel} v našem systému vůbec nemáme.")
