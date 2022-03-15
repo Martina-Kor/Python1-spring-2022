@@ -1,7 +1,6 @@
 #02 HOMEWORK: STATES OF THE WORLD
 
-# import pandas
-# countries = pandas.DataFrame([
+
 
 countries = [
     {'name': 'Afghanistan', 'capital': 'Kabul', 'region': 'Asia', 'subregion': 'Southern Asia', 'population': 27657145,
