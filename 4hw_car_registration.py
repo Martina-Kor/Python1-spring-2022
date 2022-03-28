@@ -53,7 +53,7 @@ class Car:
         return f'Cena za zapůjčení vozidla je {price} Kč.'
 
     def get_info(self):
-        return f'Zapůjčované auto: {self.licence_plate} –⁠ {self.model} –⁠ {self.km} km'
+        return f'Zapůjčované auto: {self.licence_plate} –⁠ {self.model} –⁠ počet km na tachometru {self.km}'
     
     def __str__(self):
         return self.get_info()
