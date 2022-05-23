@@ -37,4 +37,3 @@ elif datetime(2021, 8, 11)<=visitor_date<=datetime(2021, 8, 31):
 else:
     price = 0
     print('Letní kino je v tento termín zavřené.')
-
