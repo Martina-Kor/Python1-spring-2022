@@ -9,6 +9,7 @@ Které zvíře se nachází na záznamu s indexem 34? Vypiš pomocí iloc název
 """
 
 import pandas
+
 zvirata = pandas.read_csv('Python1-spring-2022/adopce_zvirat.txt', sep=';')
 
 print(zvirata)
@@ -61,11 +62,11 @@ Pomocí chroustání slovníků (dict comprehension) vytvoř slovník, který bu
 }
 (Vyšší obtížnost) Je možné, že v předchozí úloze bylo potřeba kontrolovat, jestli se ve slovníku klíč už nachází, anebo ne. Abychom se podmínce vyhli, můžeme použít defaultdict z modulu collections. Pomocí dokumentace a příkladu použití zkus upravit předchozí úlohu tak, abychom využili defaultdict. """
 
-
+""" 
 zvirata2 = pandas.read_csv('Python1-spring-2022/adopce_zvirat.txt', sep=';', index_col='nazev_cz')
 print(zvirata2)
 print(zvirata2.index.is_unique)
 zvirata_final = zvirata2.sort_index()
 print(zvirata_final)
 print(zvirata_final.loc['Outloň váhavý'])
-print(zvirata_final.loc['Želva Smithova':'Želva žlutočelá']) 
+print(zvirata_final.loc['Želva Smithova':'Želva žlutočelá'])  """
